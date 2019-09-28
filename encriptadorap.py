@@ -47,12 +47,12 @@ def verificamidia():
     path=pipe.read()
     pipe.close()
     while path == "":
-        verificamidia()
+         verificamidia()
     else:
         encriptar()
         print("pen drive montado")
 
-def copiakey():
+#def copiakey():
     
 
 
